@@ -54,11 +54,44 @@
     "command": "-workbench.action.files.openFolder"
   },
   {
-    "key": "ctrl+t",
-    "command": "-workbench.action.git.sync"
+    "key": "alt+oem_minus",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus"
   },
   {
-    "key": "ctrl+t",
-    "command": "git.pullFrom"
+    "key": "alt+f12",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+oem_minus",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "alt+f12",
+    "command": "-workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "alt+insert",
+    "command": "-workbench.action.files.newUntitledFile",
+    "when": "!editorTextFocus"
+  },
+  {
+    "key": "alt+insert",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "shift+alt+insert",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+alt+z",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+oem_5",
+    "command": "-workbench.action.splitEditor"
   }
 ]
