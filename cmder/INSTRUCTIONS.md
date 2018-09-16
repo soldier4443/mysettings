@@ -1,5 +1,8 @@
 ## user-aliases
 
+user aliases for Cmder.
+**Important Note: Some aliases dependes on git config.**
+
 copy user-aliases.cmd file to `%CMDER_ROOT%\config\`
 
 ```

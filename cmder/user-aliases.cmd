@@ -5,7 +5,9 @@
 ;= goto:eof
 ;= Add aliases below here
 e.=explorer .
-gl=git log --oneline --all --graph --decorate $*
+gl=git lg -n $*
+gs=git s
+gc=git c
 ls=ls --show-control-chars -F --color $*
 pwd=cd
 exportalias=cp "%CMDER_ROOT%\config\user-aliases.cmd" $*

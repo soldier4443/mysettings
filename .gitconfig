@@ -16,6 +16,7 @@
 	lg = !"git lg1"
 	ready = !"git add --all && git status"
 	ra = remote add origin
+	s = !"sh -c \"git status '$1' && git lg1 -n 3\""
 	c = !"sh -c \"git commit -m '$1' && git lg1 -n 3\""
 	p = push origin master
 	cp = !"sh -c \"git commit -m '$1' && git push origin master && git lg1 -n 3\""
