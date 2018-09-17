@@ -6,8 +6,10 @@
 ;= Add aliases below here
 e.=explorer .
 gl=git lg -n $*
-gs=git s
-gc=git c
+gs=git s $*
+gc=git c $*
+gac=git add --all && git c $*
+gp=git push origin master $*
 ls=ls --show-control-chars -F --color $*
 pwd=cd
 exportalias=cp "%CMDER_ROOT%\config\user-aliases.cmd" $*
